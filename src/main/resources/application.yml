@@ -1,0 +1,21 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+  freemarker:
+    suffix: .html
+
+  #sqlserver配置
+  datasource:
+    url: jdbc:sqlserver://localhost;database=userlogin
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123456
+
+#mybatis配置
+mybatis:
+  type-aliases-package: com.example.login.entry
+
+
+
+
+
